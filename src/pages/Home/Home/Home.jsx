@@ -1,6 +1,7 @@
 import Contact from "../Contact/Contact";
 import DeliverSection from "../DeliverSection/DeliverSection";
 import GoodCompany from "../GoodCompany/GoodCompany";
+import InfoSection from "../InfoSection/InfoSection";
 import News from "../News/News";
 import Services from "../Services/Services";
 import Slide from "../Slider/Slide";
@@ -16,6 +17,7 @@ const Home = () => {
       <Contact></Contact>
       <GoodCompany></GoodCompany>
       <DeliverSection></DeliverSection>
+      <InfoSection></InfoSection>
     </div>
   );
 };
