@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Transport - Container, Tautliner, Bulk",
+    "image": "https://i.ibb.co/qdngS8L/service-icon-3.png",
+    "desc": "Network of strategically based sites located on port (within 1km of container terminals) and off-port (within 15kms of capital city industrial zones) in all major capital cities across Australia. All sites are connected to the Port by High Productivity…"
+  },
+  {
+    "id": 2,
+    "title": "Intermodal Rail Terminals",
+    "image": "https://i.ibb.co/jgKrNw5/service-icon-2.png",
+    "desc": "Network of strategically based sites located on port (within 1km of container terminals) and off-port (within 15kms of capital city industrial zones) in all major capital cities across Australia. All sites are connected to the Port by High Productivity…"
+  },
+  {
+    "id": 3,
+    "title": "Empty Container Depots",
+    "image": "https://i.ibb.co/qdngS8L/service-icon-3.png",
+    "desc": "Network of strategically based sites located on port (within 1km of container terminals) and off-port (within 15kms of capital city industrial zones) in all major capital cities across Australia. All sites are connected to the Port by High Productivity…"
+  },
+  {
+    "id": 4,
+    "title": "Warehousing – 3PL, FAK and eCommerce",
+    "image": "https://i.ibb.co/xCnsZpx/service-icon-4.png",
+    "desc": "Network of strategically based sites located on port (within 1km of container terminals) and off-port (within 15kms of capital city industrial zones) in all major capital cities across Australia. All sites are connected to the Port by High Productivity…"
+  },
+  {
+    "id": 5,
+    "title": "Bio-Security & Border Security (Customs)",
+    "image": "https://i.ibb.co/qdngS8L/service-icon-3.png",
+    "desc": "Network of strategically based sites located on port (within 1km of container terminals) and off-port (within 15kms of capital city industrial zones) in all major capital cities across Australia. All sites are connected to the Port by High Productivity…"
+  }
+]

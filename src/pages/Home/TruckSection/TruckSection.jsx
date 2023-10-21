@@ -2,7 +2,7 @@ import TruckImg from "../../../assets/truck.png";
 
 const TruckSection = () => {
   return (
-    <div className="md:my-40 my-8 bg-[#ED1B24] relative">
+    <div className="md:my-14 my-8 bg-[#ED1B24] relative">
       <img className="" src={TruckImg} alt="" />
       <div className="w-[200px] md:w-[540px] h-[200px] md:h-[400px] bg-[#072953] rounded-xl p-2 md:p-10 flex flex-col gap-y-2 md:gap-y-8 text-white absolute left-2 -bottom-4 md:left-10 md:bottom-10">
         <h2 className="md:text-3xl font-semibold">
