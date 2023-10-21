@@ -14,13 +14,13 @@ const Services = () => {
     <div className="bg-gradient-to-b from-[#072953] to-[#2A548E] text-white p-2 md:p-8">
       <h4 className="text-lg font-semibold">Services</h4>
 
-      <div className="md:ml-4">
+      <div className="md:ml-4 mt-2">
         <h2 className="text-2xl font-semibold">
           A <span className="text-[#ED1B24]">smarter</span> container transport
           business
         </h2>
-        <p>
-          An on-demand container transport solution that works, utilizing the
+        <p className="text-[16px]">
+          on on-demand container transport solution that works, utilizing the
           latest in GPS, geo-mapping <br /> software, and technology.
         </p>
       </div>

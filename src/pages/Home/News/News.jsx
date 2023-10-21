@@ -20,7 +20,7 @@ const News = () => {
 
   return (
     <div className="bg-[#ED1B24] text-white p-2 md:p-8 my-12">
-      <h4 className="text-xl font-semibold ml-2 md:ml-0">News</h4>
+      <h4 className="text-2xl font-semibold ml-2 md:ml-0">News</h4>
 
       <div className="p-2">
         <Swiper

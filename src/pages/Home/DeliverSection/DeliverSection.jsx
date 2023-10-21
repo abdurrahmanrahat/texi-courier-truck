@@ -14,9 +14,9 @@ const DeliverSection = () => {
             We deliver, no matter how hard the challenge.
           </h2>
           <img src={Logo} className="md:w-[380px]" alt="" />
-          <h4 className="border-b-2 text-white md:text-[32px] md:w-[402px] font-semibold">
+          <span className="underline text-white md:text-[32px] font-semibold">
             Kennards Hire Case Study
-          </h4>
+          </span>
         </div>
       </div>
     </div>
