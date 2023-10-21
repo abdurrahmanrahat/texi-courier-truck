@@ -14,6 +14,7 @@ import { Parallax, Pagination, Navigation } from "swiper/modules";
 // import Image2 from "../../../assets/bannerSlide/banner2.png";
 
 import { CiMobile3 } from "react-icons/ci";
+import ActiveLink from "../../../components/ActiveLink/ActiveLink";
 
 const Slide = () => {
   return (
@@ -57,11 +58,17 @@ const Slide = () => {
 
           <div className="hidden md:flex flex-col items-end absolute top-24 right-10">
             <ul className="flex gap-6 text-[13px]">
-              <li>WHY SWIFT TRANSPORT</li>
-              <li className="font-bold underline text-[14px]">FLEET</li>
+              <ActiveLink to="/transport">
+                <li>WHY SWIFT TRANSPORT</li>
+              </ActiveLink>
+
+              <ActiveLink to="/">
+                <li>FLEET</li>
+              </ActiveLink>
+
               <li>COMPANY POLICIES</li>
               <li>ABOUT US</li>
-              <li>Contact Us</li>
+              <li>CONTACT US</li>
             </ul>
             <div className="flex gap-6 text-[16px] mt-4">
               <p className="bg-[#ED1B24] py-1 px-2 rounded-md">

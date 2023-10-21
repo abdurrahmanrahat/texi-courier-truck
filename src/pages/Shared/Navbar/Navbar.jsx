@@ -2,6 +2,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCallOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import ActiveLink from "../../../components/ActiveLink/ActiveLink";
 
 const Navbar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -31,11 +32,16 @@ const Navbar = () => {
             </div>
 
             <ul className="text-[14px] text-white flex flex-col gap-y-2">
-              <li>WHY SWIFT TRANSPORT</li>
-              <li className="font-bold underline text-[14px]">FLEET</li>
+              <ActiveLink to="/transport">
+                <li>WHY SWIFT TRANSPORT</li>
+              </ActiveLink>
+
+              <ActiveLink to="/">
+                <li>FLEET</li>
+              </ActiveLink>
               <li>COMPANY POLICIES</li>
               <li>ABOUT US</li>
-              <li>Contact Us</li>
+              <li>CONTACT US</li>
             </ul>
           </div>
         </div>
