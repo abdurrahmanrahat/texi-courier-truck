@@ -1,4 +1,5 @@
 import Contact from "../Contact/Contact";
+import DeliverSection from "../DeliverSection/DeliverSection";
 import GoodCompany from "../GoodCompany/GoodCompany";
 import News from "../News/News";
 import Services from "../Services/Services";
@@ -14,6 +15,7 @@ const Home = () => {
       <News></News>
       <Contact></Contact>
       <GoodCompany></GoodCompany>
+      <DeliverSection></DeliverSection>
     </div>
   );
 };
