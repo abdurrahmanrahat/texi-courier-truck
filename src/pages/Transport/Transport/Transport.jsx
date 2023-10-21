@@ -1,5 +1,6 @@
 import HeaderBanner from "../HeaderBanner/HeaderBanner";
 import HeaderSection from "../HeaderSection/HeaderSection";
+import SwiftSection from "../SwiftSection/SwiftSection";
 
 const Transport = () => {
   return (
@@ -7,6 +8,8 @@ const Transport = () => {
       <HeaderSection></HeaderSection>
 
       <HeaderBanner></HeaderBanner>
+
+      <SwiftSection></SwiftSection>
     </div>
   );
 };
