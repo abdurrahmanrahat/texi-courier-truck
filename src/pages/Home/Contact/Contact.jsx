@@ -3,7 +3,7 @@ import ContactImg from "../../../assets/contact.png";
 
 const Contact = () => {
   return (
-    <div className="relative">
+    <div className="relative mb-6">
       <img src={ContactImg} alt="" />
       <div className="w-[240px] md:w-[620px] h-[140px] md:h-[230px] bg-[#072953] text-white px-6 md:px-10 py-8 rounded-se-[30px] absolute top-8 left-0">
         <p className="md:text-[32px]">
