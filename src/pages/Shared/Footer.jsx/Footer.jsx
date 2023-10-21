@@ -1,3 +1,9 @@
+import {
+  FaFacebook,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaWhatsappSquare,
+} from "react-icons/fa";
 import "./Footer.css";
 import MobileFooter from "./MobileFooter";
 
@@ -53,8 +59,26 @@ const Footer = () => {
         </div>
         <div></div>
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden w-full bg-[#072953] px-4 pb-12 pt-16">
         <MobileFooter></MobileFooter>
+
+        <hr className="my-4" />
+
+        <h4 className="uppercase text-center text-white text-lg font-semibold">
+          Social Media
+        </h4>
+        <div className="text-white flex gap-8 justify-center mt-2 text-2xl">
+          <FaFacebook />
+          <FaInstagramSquare />
+          <FaLinkedin />
+          <FaWhatsappSquare />
+        </div>
+
+        <hr className="my-4" />
+
+        <p className="text-center text-white pt-4">
+          © 2014 Swift Transport. All rights reserved.
+        </p>
       </div>
     </div>
   );

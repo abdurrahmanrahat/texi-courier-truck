@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const MobileFooter = () => {
   return (
-    <div className="w-full bg-[#072953] px-4 pb-12 pt-16">
+    <div className="">
       <div className="mx-auto w-full max-w-md rounded-2xl bg-[#072953] p-2">
         <Disclosure>
           {({ open }) => (
