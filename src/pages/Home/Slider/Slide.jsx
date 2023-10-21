@@ -13,6 +13,8 @@ import { Parallax, Pagination, Navigation } from "swiper/modules";
 // import Image1 from "../../../assets/bannerSlide/banner1.png";
 // import Image2 from "../../../assets/bannerSlide/banner2.png";
 
+import { CiMobile3 } from "react-icons/ci";
+
 const Slide = () => {
   return (
     <div>
@@ -32,7 +34,7 @@ const Slide = () => {
       >
         <div
           slot="container-start"
-          className="parallax-bg"
+          className="parallax-bg relative"
           style={{
             backgroundImage: "url(https://i.ibb.co/FbP261K/header-banner.jpg)",
           }}
@@ -46,22 +48,28 @@ const Slide = () => {
             Cheaper delivery costs through innovative vehicle design
           </div>
 
-          <div className="text md:ml-[860px] " data-swiper-parallax="-100">
-            <p>
-              OUR 1 TONNE VEHICLES CAN HANDLE WHAT OTHERS CAN’T. YOU&lsquo;LL BE
-              PLEASANTLY SUPRISED
+          <div className="hidden bg-transparent w-40 text-white md:flex justify-end items-center absolute top-8 right-10">
+            <CiMobile3 className="text-5xl" />
+            <p className="text-start">
+              Call Us <br /> 1300 779 438
             </p>
-            <button className="md:mt-7 md:mr-14 text-xl font-semibold border-b-2">
-              Taxi and Courier truck
-            </button>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="title md:mt-[280px] md:ml-[480px]"
-            data-swiper-parallax="-300"
-          >
-            Cheaper delivery costs through innovative vehicle design
+
+          <div className="hidden md:flex flex-col items-end absolute top-24 right-10">
+            <ul className="flex gap-6 text-[13px]">
+              <li>WHY SWIFT TRANSPORT</li>
+              <li className="font-bold underline text-[14px]">FLEET</li>
+              <li>COMPANY POLICIES</li>
+              <li>ABOUT US</li>
+              <li>Contact Us</li>
+            </ul>
+            <div className="flex gap-6 text-[16px] mt-4">
+              <p className="bg-[#ED1B24] py-1 px-2 rounded-md">
+                Swift Intermodal
+              </p>
+              <p>Container Transport Solutions</p>
+              <p>Complete Warehousing Solutions</p>
+            </div>
           </div>
 
           <div className="text md:ml-[860px] " data-swiper-parallax="-100">
@@ -80,6 +88,72 @@ const Slide = () => {
             data-swiper-parallax="-300"
           >
             Cheaper delivery costs through innovative vehicle design
+          </div>
+
+          <div className="hidden bg-transparent w-40 text-white md:flex justify-end items-center absolute top-8 right-10">
+            <CiMobile3 className="text-5xl" />
+            <p className="text-start">
+              Call Us <br /> 1300 779 438
+            </p>
+          </div>
+
+          <div className="hidden md:flex flex-col items-end absolute top-24 right-10">
+            <ul className="flex gap-6 text-[13px]">
+              <li>WHY SWIFT TRANSPORT</li>
+              <li className="font-bold underline text-[14px]">FLEET</li>
+              <li>COMPANY POLICIES</li>
+              <li>ABOUT US</li>
+              <li>Contact Us</li>
+            </ul>
+            <div className="flex gap-6 text-[16px] mt-4">
+              <p className="bg-[#ED1B24] py-1 px-2 rounded-md">
+                Swift Intermodal
+              </p>
+              <p>Container Transport Solutions</p>
+              <p>Complete Warehousing Solutions</p>
+            </div>
+          </div>
+
+          <div className="text md:ml-[860px] " data-swiper-parallax="-100">
+            <p>
+              OUR 1 TONNE VEHICLES CAN HANDLE WHAT OTHERS CAN’T. YOU&lsquo;LL BE
+              PLEASANTLY SUPRISED
+            </p>
+            <button className="md:mt-7 md:mr-14 text-xl font-semibold border-b-2">
+              Taxi and Courier truck
+            </button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="title md:mt-[280px] md:ml-[480px]"
+            data-swiper-parallax="-300"
+          >
+            Cheaper delivery costs through innovative vehicle design
+          </div>
+
+          <div className="hidden bg-transparent w-40 text-white md:flex justify-end items-center absolute top-8 right-10">
+            <CiMobile3 className="text-5xl" />
+            <p className="text-start">
+              Call Us <br /> 1300 779 438
+            </p>
+          </div>
+
+          <div className="hidden md:flex flex-col items-end absolute top-24 right-10">
+            <ul className="flex gap-6 text-[13px]">
+              <li>WHY SWIFT TRANSPORT</li>
+              <li className="font-bold underline text-[14px]">FLEET</li>
+              <li>COMPANY POLICIES</li>
+              <li>ABOUT US</li>
+              <li>Contact Us</li>
+            </ul>
+            <div className="flex gap-6 text-[16px] mt-4">
+              <p className="bg-[#ED1B24] py-1 px-2 rounded-md">
+                Swift Intermodal
+              </p>
+              <p>Container Transport Solutions</p>
+              <p>Complete Warehousing Solutions</p>
+            </div>
           </div>
 
           <div className="text md:ml-[860px] " data-swiper-parallax="-100">
