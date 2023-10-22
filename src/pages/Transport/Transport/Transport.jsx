@@ -1,3 +1,4 @@
+import InfoSection from "../../Home/InfoSection/InfoSection";
 import CaseStudies from "../CaseStudies/CaseStudies";
 import HeaderBanner from "../HeaderBanner/HeaderBanner";
 import HeaderSection from "../HeaderSection/HeaderSection";
@@ -16,6 +17,10 @@ const Transport = () => {
       <WhySwift></WhySwift>
 
       <CaseStudies></CaseStudies>
+
+
+
+      <InfoSection></InfoSection>
     </div>
   );
 };
