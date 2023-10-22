@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCallOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import ActiveLink from "../../../components/ActiveLink/ActiveLink";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -39,9 +40,15 @@ const Navbar = () => {
               <ActiveLink to="/">
                 <li>FLEET</li>
               </ActiveLink>
-              <li>COMPANY POLICIES</li>
-              <li>ABOUT US</li>
-              <li>CONTACT US</li>
+              <Link to="/warning">
+                <li>COMPANY POLICIES</li>
+              </Link>
+              <Link to="/warning">
+                <li>ABOUT US</li>
+              </Link>
+              <Link to="/warning">
+                <li>CONTACT US</li>
+              </Link>
             </ul>
           </div>
         </div>

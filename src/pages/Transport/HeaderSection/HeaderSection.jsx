@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ActiveLink from "../../../components/ActiveLink/ActiveLink";
 
 const HeaderSection = () => {
@@ -13,9 +14,15 @@ const HeaderSection = () => {
             <li>FLEET</li>
           </ActiveLink>
 
-          <li>COMPANY POLICIES</li>
-          <li>ABOUT US</li>
-          <li>CONTACT US</li>
+          <Link to="/warning">
+            <li>COMPANY POLICIES</li>
+          </Link>
+          <Link to="/warning">
+            <li>ABOUT US</li>
+          </Link>
+          <Link to="/warning">
+            <li>CONTACT US</li>
+          </Link>
         </ul>
         <div className="flex gap-6 text-[16px] pr-12 mt-4">
           <p className="bg-[#ED1B24] py-1 px-2 rounded-md">Swift Intermodal</p>
