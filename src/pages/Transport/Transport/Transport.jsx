@@ -3,6 +3,7 @@ import CaseStudies from "../CaseStudies/CaseStudies";
 import HeaderBanner from "../HeaderBanner/HeaderBanner";
 import HeaderSection from "../HeaderSection/HeaderSection";
 import SwiftSection from "../SwiftSection/SwiftSection";
+import Testimonials from "../Testimonials/Testimonials";
 import WhySwift from "../WhySwift/WhySwift";
 
 const Transport = () => {
@@ -18,7 +19,7 @@ const Transport = () => {
 
       <CaseStudies></CaseStudies>
 
-
+      <Testimonials></Testimonials>
 
       <InfoSection></InfoSection>
     </div>
